@@ -4,4 +4,4 @@ Name: DevWarn
 
 SilverStripe\CMS\Controllers\CMSMain:
   extensions:
-  - DorsetDigital\Themes\Core\Extension\AdminExtension
+  - DorsetDigital\DevWarning\AdminExtension
