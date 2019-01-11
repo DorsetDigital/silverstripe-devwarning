@@ -17,7 +17,7 @@
  "license": "BSD-3-Clause",
  "autoload": {
   "psr-4": {
-   "DorsetDigital\\DevWarn\\": "src/"
+   "DorsetDigital\\DevWarning\\": "src/"
   }
  },
  "extra": {

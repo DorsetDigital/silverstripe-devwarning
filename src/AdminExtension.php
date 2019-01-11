@@ -1,6 +1,6 @@
 <?php
 
-namespace DorsetDigital\DevWarn;
+namespace DorsetDigital\DevWarning;
 
 use SilverStripe\Control\Director;
 use SilverStripe\Core\Environment;
