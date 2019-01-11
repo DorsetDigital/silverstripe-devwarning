@@ -1,23 +1,23 @@
 {
- "name": "dorsetdigital/silverstripe-http2",
- "description": "Adds support for HTTP2 features",
+ "name": "dorsetdigital/silverstripe-devwarning",
+ "description": "Adds notices to remind you if you have a site in dev mode, and other things",
  "type": "silverstripe-vendormodule",
- "homepage": "https://github.com/DorsetDigital/silverstripe-http2",
- "keywords": ["silverstripe", "http", "http2"],
+ "homepage": "https://github.com/DorsetDigital/silverstripe-devwarn",
+ "keywords": ["silverstripe", "cms", "admin"],
  "authors": [
   {
    "name": "Tim Burt",
    "email": "tim@dorset-digital.net"
   }
- ], 
+ ],
  "require": {
   "silverstripe/vendor-plugin": "^1.0",
-  "silverstripe/cms": "^4.0"
+  "silverstripe/cms": "^4"
  },
  "license": "BSD-3-Clause",
  "autoload": {
   "psr-4": {
-   "DorsetDigital\\HTTP2\\": "src/"
+   "DorsetDigital\\DevWarn\\": "src/"
   }
  },
  "extra": {
