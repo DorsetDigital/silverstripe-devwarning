@@ -1,4 +1,4 @@
-# silverstripe-devwarn
+# silverstripe-devwarning
 Because we're all a little absent-minded sometimes!
 Pops up a small notice when the site is in dev mode or if the site is in live mode and a default password is set in the config (both of which have potential security consequences)
 
