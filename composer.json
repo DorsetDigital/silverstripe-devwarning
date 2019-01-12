@@ -2,7 +2,7 @@
  "name": "dorsetdigital/silverstripe-devwarning",
  "description": "Adds notices to remind you if you have a site in dev mode, and other things",
  "type": "silverstripe-vendormodule",
- "homepage": "https://github.com/DorsetDigital/silverstripe-devwarn",
+ "homepage": "https://github.com/DorsetDigital/silverstripe-devwarning",
  "keywords": ["silverstripe", "cms", "admin"],
  "authors": [
   {
