@@ -13,7 +13,7 @@ class AdminExtension extends Extension
     public function onAfterInit()
     {
 
-        $messages = [];
+        $messages = [ ];
 
         $scriptTpl = <<<EOT
 jQuery.noticeAdd({
@@ -24,7 +24,7 @@ jQuery.noticeAdd({
 EOT;
 
         if (Director::isDev()) {
-            $messages[] = [
+            $messages[ ] = [
                 'level' => 'warn',
                 'message' => _t(__CLASS__ . '.DevModeWarning',
                     'Notice: This site is currently in development mode.  Please ensure that the correct security precautions are in place to protect it.')
@@ -32,7 +32,7 @@ EOT;
         }
 
         if (Director::isLive() && (Environment::getEnv('SS_DEFAULT_ADMIN_PASSWORD') != '')) {
-            $messages[] = [
+            $messages[ ] = [
                 'level' => 'warn',
                 'message' => _t(__CLASS__ . '.DefaultAdminWarning',
                     'Notice: A default administrator password is set in the site config.')
@@ -42,7 +42,7 @@ EOT;
         if (!empty($messages)) {
             $script = null;
             foreach ($messages as $message) {
-                $script .= sprintf($scriptTpl, $message['message'], $message['level']);
+                $script .= sprintf($scriptTpl, $message[ 'message' ], $message[ 'level' ]);
             }
             Requirements::customScript($script);
         }
